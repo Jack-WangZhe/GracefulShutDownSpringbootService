@@ -15,7 +15,7 @@ final class GracefulShutdown implements TomcatConnectorCustomizer, ApplicationLi
 
     private static final Logger log = LoggerFactory.getLogger(GracefulShutdown.class);
 
-    private static final int TIMEOUT = 30;
+    private static final int TIMEOUT = 500;
 
     private volatile Connector connector;
 
